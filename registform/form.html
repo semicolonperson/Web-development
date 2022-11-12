@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Latihan Pembuatan Form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Free Registration</h1>
+        <table border="0" width="400">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" size="30" name="nama"></td>
+            </tr>
+            <tr>
+                <td>Tgl Lahir</td>
+                <td>:</td>
+                <td><input type="text" size="2">/
+                    <input type="text" size="2">/
+                    <input type="text" size="2"> (dd/mm/yyyy)
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="alamat" rows="3" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td>Kota</td>
+                <td>:</td>
+                <td><input type="text" size="30" name="kota"></textarea></td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td>:</td>
+                <td><select name="pekerjaan">
+                        <option value="Tani">Tani</option>
+                        <option value="Wiraswasta">Wiraswasta</option>
+                        <option value="Karyawan Swasta">Karyawan Swasta</option>
+                        <option value="PNS">PNS</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name="jkel" value="Laki-laki">Laki-laki
+                    <input type="radio" name="jkel" value="Perempuan">Perempuan
+                </td>
+            <tr>
+                <td>Hobby</td>
+                <td>:</td>
+                <td><input type="checkbox" name="hoby" value="Reading">Reading <br>
+                    <input type="checkbox" name="hoby" value="Sport">Sport <br>
+                    <input type="checkbox" name="hoby" value="Singing">Singing <br>
+                    <input type="checkbox" name="hoby" value="Travelling">Travelling <br>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+
+</html>
